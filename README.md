@@ -75,53 +75,26 @@ It has a special focus on the temporal aspects of state transitions, making it i
 
 ## Installation
 
-### Unity Package
+### Unity Package Manager
+```
+https://github.com/ThanhDang143/ThanhDV.DeviceDebugger.git
+```
 
-To get started, download the latest version of UnityHFSM from the [Releases](https://github.com/Inspiaaa/UnityHFSM/releases) page. Simply extract the zip file and put the folder anywhere in your `Assets` folder. Et voilà, you're ready to go!
+1. In Unity, open **Window** → **Package Manager**.
+2. Press the **+** button, choose "**Add package from git URL...**"
+3. Enter url above and press **Add**.
 
-### UPM Package
+### Scoped Registry
 
-<details>
-<summary>Add from OpenUPM <em>| via scoped registry</em></summary>
+1. In Unity, open **Project Settings** → **Package Manager** → **Add New Scoped Registry**
+- ``Name`` ThanhDVs
+- ``URL`` https://upm.thanhdv.icu
+- ``Scope(s)`` thanhdv
 
-To add OpenUPM to your project:
-
-- Open `Edit/Project Settings/Package Manager`
-
-- Add a new Scoped Registry:
-  
-  ```
-  Name: OpenUPM
-  URL:  https://package.openupm.com/
-  Scope(s): com.inspiaaa.unityhfsm
-  ```
-
-- Click <kbd>Save</kbd>
-
-- Open Package Manager
-
-- Select ``My Registries`` in dropdown top left
-
-- Select ``UnityHFSM`` and click ``Install``
-  
-  </details>
-
-<details>
-<summary>Add from GitHub | <em>no updates through PackMan</em></summary>
-
-You can also add it directly from GitHub on Unity 2019.4+. Note that you won't be able to receive updates through Package Manager this way, you'll have to update manually.
-
-- Open Package Manager (<kbd>Window</kbd> > <kbd>Package Manager</kbd>)
-- Click <kbd>+</kbd>
-- Select <kbd>Add from Git URL</kbd>
-- Paste
-  - `https://github.com/Inspiaaa/UnityHFSM.git#upm` for the latest stable release (**recommended**)
-  - `https://github.com/Inspiaaa/UnityHFSM.git#release` for the development version
-  - `https://github.com/Inspiaaa/UnityHFSM.git#v1.8.0` for a specific version (`v1.8.0` here)
-- Click <kbd>Add</kbd>
-- Tip: If you're using VSCode, and you're not getting any IntelliSense, you may have to regenerate the `.csproj` project files (<kbd>Edit</kbd> > <kbd>Preferences</kbd> > <kbd>External Tools</kbd> > <kbd>Regenerate project files</kbd>)
-
-</details>
+2. In Unity, open **Window** → **Package Manager**.
+- Press the **+** button, choose "**Add package by name...**" → ``thanhdv.inspiaaa.unityhfsm``
+- or
+- Press the **Packages** button, choose "**My Registries**"
 
 ---
 
