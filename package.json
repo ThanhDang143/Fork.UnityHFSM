@@ -1,26 +1,34 @@
 {
-  "name": "com.inspiaaa.unityhfsm",
-  "displayName": "UnityHFSM",
-  "description": "A simple yet powerful class-based hierarchical finite state machine for Unity3D",
-
-  "version": "2.2.0",
-  "license": "MIT",
-  "keywords": ["fsm", "hierarchical", "state-machine"],
-  "documentationUrl": "https://github.com/Inspiaaa/UnityHFSM",
-
-  "author": {
-    "name": "Inspiaaa",
-    "url": "https://github.com/Inspiaaa"
-  },
-
-  "samples": [
-    {
-      "displayName": "Guard AI",
-      "path": "Samples~/GuardAI"
+    "name": "thanhdv.inspiaaa.unityhfsm",
+    "version": "2.2.0",
+    "displayName": "ThanhDV's UnityHFSM",
+    "description": "A simple yet powerful class-based hierarchical finite state machine for Unity.",
+    "unity": "2022.3",
+    "keywords": [
+        "FSM",
+        "Hierarchical",
+        "StateMachine"
+    ],
+    "author": {
+        "name": "ThanhDV",
+        "email": "vanthanh1998@gmail.com",
+        "url": "https://books.thanhdv.icu/"
     },
-    {
-      "displayName": "Sample3d",
-      "path": "Samples~/Sample3d"
-    }
-  ]
+    "dependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThanhDang143/Fork.UnityHFSM.git"
+    },
+    "documentationUrl": "https://github.com/Inspiaaa/UnityHFSM",
+    "samples": [
+      {
+        "displayName": "Guard AI",
+        "path": "Samples~/GuardAI"
+      },
+      {
+        "displayName": "Sample3d",
+        "path": "Samples~/Sample3d"
+      }
+    ],
+    "license": "MIT"
 }
